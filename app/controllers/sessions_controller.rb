@@ -20,8 +20,4 @@ class SessionsController < Clearance::SessionsController
   def email_or_username
     params[:session][:email_or_username]
   end
-
-  def email
-    ""
-  end
 end
